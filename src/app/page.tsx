@@ -1,40 +1,19 @@
-'use client'
-import * as React from 'react';
-import { styled } from '@mui/material/styles';
-import Box from '@mui/material/Box';
-import Paper from '@mui/material/Paper';
-import Grid from '@mui/material/Grid';
-import Stack from '@mui/material/Stack';
 
-const Item = styled(Paper)(({ theme }) => ({
-  backgroundColor: '#fff',
-  ...theme.typography.body2,
-  padding: theme.spacing(1),
-  textAlign: 'center',
-  color: (theme.vars ?? theme).palette.text.secondary,
-  ...theme.applyStyles('dark', {
-    backgroundColor: '#1A2027',
-  }),
-}));
+import HeroSection from '../components/sections/HeroSection';
+import AboutSection from '../components/sections/AboutSection';
+import { Box } from '@mui/material';
 
-export default function FullWidthGrid() {
+export default function HomePage() {
   return (
-    <Box sx={{ flexGrow: 1, backgroundColor: 'red' }}>
-      <Stack></Stack>
-      <Grid container spacing={2}>
-        <Grid size={{ xs: 6, md: 8 }}>
-          <Item>xs=6 md=8</Item>
-        </Grid>
-        <Grid size={{ xs: 6, md: 4 }}>
-          <Item>xs=6 md=4</Item>
-        </Grid>
-        <Grid size={{ xs: 6, md: 4 }}>
-          <Item>xs=6 md=4</Item>
-        </Grid>
-        <Grid size={{ xs: 6, md: 8 }}>
-          <Item>xs=6 md=8</Item>
-        </Grid>
-      </Grid>
+    <Box>
+      <HeroSection />
+      <AboutSection />
+      {/* Add more sections as needed */}
     </Box>
   );
 }
+
+export const metadata = {
+  title: 'Your Name - Music Producer & Artist',
+  description: 'Electronic music producer creating immersive soundscapes and unique sonic experiences.',
+};
