@@ -1,6 +1,6 @@
 ---
 title: "My First Music Blog Post"
-date: "2024-06-15"
+date: {post.date}
 excerpt: "Testing my new blog setup with some thoughts on music production."
 author: "Your Name"
 tags: ["music", "production", "testing"]
