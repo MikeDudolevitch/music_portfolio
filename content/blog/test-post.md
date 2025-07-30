@@ -1,16 +1,19 @@
 ---
-title: "My First Music Blog Post"
-date: {post.date}
-excerpt: "Testing my new blog setup with some thoughts on music production."
+title: "First Post - Testing the Pipeline"
+date: "2025-07-29"
+slug: "test-post"
 author: "Your Name"
-tags: ["music", "production", "testing"]
-image: "/images/blog/test-post.jpg"
+tags: ["test", "first-post"]
 ---
 
-# Welcome to My Music Blog
+# Testing My Blog Pipeline
 
-This is a test post to make sure everything is working correctly.
+This is my first blog post to test the markdown-to-webpage pipeline!
 
-## About This Blog
+If you're reading this on my live site, it means the system is working perfectly.
 
-I'll be sharing insights about music production, composition, and the creative process.
+## Next Steps
+
+Soon this will be filled with deep dives into my music releases and creative process.
+
+**Stay tuned!**
