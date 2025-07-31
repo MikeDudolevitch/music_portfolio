@@ -68,7 +68,7 @@ export default function Navbar() {
               fontWeight: 'bold'
             }}
           >
-            Your Name
+            Mike Dudolevitch
           </Typography>
 
           {isMobile ? (

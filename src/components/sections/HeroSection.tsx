@@ -9,10 +9,10 @@ export default function HeroSection() {
   return (
     <Box
       sx={{
+        backgroundImage: 'url(/images/MikeJenGreen.jpeg)',
         minHeight: '100vh',
         display: 'flex',
         alignItems: 'center',
-        background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
         color: 'white',
         position: 'relative',
         overflow: 'hidden'
@@ -57,14 +57,14 @@ export default function HeroSection() {
                 fontSize: { xs: '2.5rem', md: '3.5rem' }
               }}
             >
-              Music Producer & Artist
+              Mike Dudolevitch
             </Typography>
             <Typography
               variant="h5"
               component="p"
               sx={{ mb: 4, opacity: 0.9, lineHeight: 1.6 }}
             >
-              Creating immersive soundscapes and pushing the boundaries of electronic music
+              Guitarist
             </Typography>
             <Stack
               direction={{ xs: 'column', sm: 'row' }}

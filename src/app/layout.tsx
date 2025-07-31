@@ -8,7 +8,7 @@ import { Box } from '@mui/material';
 
 export const metadata: Metadata = {
   title: 'Your Name - Music Portfolio',
-  description: 'Electronic music producer and artist portfolio',
+  description: 'Guitarist',
 };
 
 export default function RootLayout({

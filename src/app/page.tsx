@@ -15,5 +15,5 @@ export default function HomePage() {
 
 export const metadata = {
   title: 'Your Name - Music Producer & Artist',
-  description: 'Electronic music producer creating immersive soundscapes and unique sonic experiences.',
+  description: 'Guitarist.',
 };
